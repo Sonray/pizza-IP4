@@ -18,6 +18,22 @@
 span{
     color: red;
 }
+#odeer{
+    background-color: rgb(218, 218, 136, 0.1);
+}
+.nd{
+    text-align: center;
+    font-size: 30px;
+}
+.form-control{
+    width: 20vw;
+    margin-left: 30vw;
+}
+#button-pressed{
+    text-align: center;
+    margin-top: 5vh;
+    margin-bottom: 5vh;
+}
 #mce-FNAME, #mce-EMAIL {
     width: 25vw;
     text-align: left;

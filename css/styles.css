@@ -9,7 +9,10 @@
     background-color: black;
 }
 .pizza-body{
-
+    background-image: url("../images/pizza-3000274_1920.jpg");
+    background-size: cover;
+    height: 80vh;
+    margin-top: -5vh;
 }
 #mce-FNAME, #mce-EMAIL {
     width: 25vw;

@@ -36,18 +36,18 @@ $(document).ready(function(){
         var pizzaToppings=parseInt($('#top').val());
         var priceCrust =parseInt($('#crusting').val());
         var pizzaTop = $('#top').val();
-        var quantity = parseInt($('#quantity').val());
+        var pizzaQty = parseInt($('#quantity').val());
         var pizzaPick = parseInt($('#delivery').val());
         var price = sizePrices[pizzaSize - 1];
-        var delivery = deliveryPrices[pizzaPick - 1];
-        var toppings = priceToppings[pizzaToppings-1];
-        var crust = crustPrices[priceCrust-1]
+        var DeliveryCost = deliveryPrices[pizzaPick - 1];
+        var ToppingsCost = priceToppings[pizzaToppings-1];
+        var crustCost = crustPrices[priceCrust-1]
         var topNames = toppingsName[pizzaTop-1]
         var crustName = crustNames[priceCrust-1]
 
         newOrder = new Results(pizzaType,pizzaSize, crustName,topNames,crustName);
-        newTotal = new TotalPrice(price, quantity, delivery,toppings,crust);
-
+        newTotal = new TotalPrice(price, pizzaQty, DeliveryCost,ToppingsCost,crustCost);
+        
         if (pizzaPick===1){
             alert( newOrder.order());
             alert("Your bill is: " + newTotal.finalTotal());

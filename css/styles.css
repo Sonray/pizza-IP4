@@ -67,6 +67,7 @@ span{
     background-color: orangered;
     margin-top: 3vh;
     margin-bottom: 5vh;
+    font-size: 30px;
 }
 #mc-embedded-subscribe:hover{
     background-color: yellow;

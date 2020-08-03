@@ -24,6 +24,9 @@ span{
 .nd{
     text-align: center;
     font-size: 30px;
+    background-color: yellowgreen;
+    padding: 5vh;
+    display: none;
 }
 .form-control{
     width: 20vw;

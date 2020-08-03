@@ -1,6 +1,6 @@
 $(document).ready(function(){
     $("#button-pressed").click(function(){
-        $("#make-order").toggle("5000")
+        $(".nd").toggle("3000")
     });
 });
 function Results (type,size,crust,toppings) {

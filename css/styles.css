@@ -1,0 +1,34 @@
+.jumbotron nav a{
+    color: white;
+    font-size: 40px;
+    margin-left: 5vw;
+    font-style: none;
+}
+.jumbotron{
+    text-align: center;
+    background-color: black;
+}
+.pizza-body{
+
+}
+#mce-FNAME, #mce-EMAIL {
+    width: 25vw;
+    text-align: left;
+    border: 10px solid white;
+    opacity: 0.3;
+
+}
+#mce-MMERGE3{
+    width: 50vw;
+    height: 40vh;
+    text-align: left;
+    opacity: 0.3;
+}
+#mc-embedded-subscribe{
+    background-color: orangered;
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+}
+#mc-embedded-subscribe:hover{
+    background-color: yellow;
+}

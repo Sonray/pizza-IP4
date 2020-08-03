@@ -44,11 +44,16 @@ span{
     border-radius: 15px;
     color: red;
 }
+#contact-us{
+    background-color: green;
+    text-align: center;
+}
 #mce-FNAME, #mce-EMAIL {
-    width: 25vw;
+    width: 50vw;
     text-align: left;
     border: 10px solid white;
     opacity: 0.3;
+    margin-top: 1vh;
 
 }
 #mce-MMERGE3{
@@ -56,6 +61,7 @@ span{
     height: 40vh;
     text-align: left;
     opacity: 0.3;
+    margin-top: 3vh;
 }
 #mc-embedded-subscribe{
     background-color: orangered;

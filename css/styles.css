@@ -11,8 +11,12 @@
 .pizza-body{
     background-image: url("../images/pizza-3000274_1920.jpg");
     background-size: cover;
-    height: 80vh;
+    background-attachment: fixed;
+    height: 75vh;
     margin-top: -5vh;
+}
+span{
+    color: red;
 }
 #mce-FNAME, #mce-EMAIL {
     width: 25vw;

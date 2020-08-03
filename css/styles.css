@@ -33,6 +33,13 @@ span{
     text-align: center;
     margin-top: 5vh;
     margin-bottom: 5vh;
+    font-size: 30px;
+    background-color: yellow;
+    padding: 5vh;
+}
+#button-pressed button{
+    border-radius: 15px;
+    color: red;
 }
 #mce-FNAME, #mce-EMAIL {
     width: 25vw;
